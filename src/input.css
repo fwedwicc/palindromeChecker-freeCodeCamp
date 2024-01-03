@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        margin: 5rem;
+        background: #DCDEEA;
+    }
+    .container {
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@layer components {
+    
+    .card {
+        border: solid 1px #000;
+    }
+    .button {
+        background-color: #000;
+        height: 36px;
+        color: #fff;
+        width: 5rem;
+    }
+    .input {
+        border: 1px solid #000;
+        background: #DCDEEA;
+    }
+}

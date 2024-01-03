@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeCodeCamp | Palindrome Checker</title>
+    <script src="/dist/script.js"></script>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-9xl font-semibold">Palindrome Checker</h1>
+        <p>A palindrome is a word or phrase that can be read the same way forwards and backwards, ignoring punctuation, case, and spacing.</p>
+        <div class="card h-52 w-1/3 m-14 flex justify-center p-10">
+            <form>
+                <input 
+                    type="text" 
+                    id="text-input" 
+                    name="text-input" 
+                    class="input h-9 p-3"
+                    placeholder="Type something..."
+                />
+                <button 
+                    type="button" 
+                    id="check-btn" 
+                    onclick="checkInput()" 
+                    class="button m-2">Check
+                </button>
+                <div 
+                    id="result"
+                    class="pt-7 flex justify-center text-lg">
+                </div>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>
